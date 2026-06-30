@@ -22,6 +22,7 @@ Designing, securing, operating, monitoring, and documenting an enterprise-inspir
 </p>
 
 ---
+![Logical Architecture](images/logical_network_architecture.png)
 
 # Overview
 
