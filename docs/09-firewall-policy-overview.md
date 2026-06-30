@@ -1,5 +1,7 @@
 # Firewall Policy Overview
 
+![Enterprise Traffic Flow](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/enterprise_traffic_flow_%26%20access_control.png)
+
 ## Overview
 
 Enterprise firewall policy serves as the primary mechanism for governing communication between logical security domains. Rather than functioning solely as a perimeter security device, modern firewall architecture provides centralized policy enforcement that supports secure, scalable, and manageable enterprise infrastructure.
