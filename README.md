@@ -22,7 +22,15 @@ Designing, securing, operating, monitoring, and documenting an enterprise-inspir
 </p>
 
 ---
-![Logical Architecture](images/logical_network_architecture.png)
+## Architecture Gallery
+
+| Logical Architecture | Physical Architecture |
+|----------------------|-----------------------|
+| ![](images/logical_network_architecture.png) | ![](images/physical_infrastructure_architecture.png) |
+
+| Network Segmentation | Traffic Flow |
+|----------------------|--------------|
+| ![](images/network_segmentation_architecture.png) | ![](images/enterprise_traffic_flow_&_access_control.png) |
 
 # Overview
 
