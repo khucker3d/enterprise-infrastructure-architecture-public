@@ -30,7 +30,7 @@ Designing, securing, operating, monitoring, and documenting an enterprise-inspir
 
 | Network Segmentation | Traffic Flow |
 |----------------------|--------------|
-| ![](images/network_segmentation_architecture.png) | ![](images/enterprise_traffic_flow_&_access_control.png) |
+| ![](images/network_segmentation_architecture.png) | ![](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/enterprise_traffic_flow_and_access_control.png) |
 
 # Overview
 
