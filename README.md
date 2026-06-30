@@ -1,0 +1,267 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khucker3d/cyber-branding-images/main/banner.png" width="100%" alt="Enterprise Home Infrastructure">
+</p>
+
+<h1 align="center">Enterprise Home Infrastructure</h1>
+
+<h3 align="center">
+Enterprise Network Engineering Case Study
+</h3>
+
+<p align="center">
+
+Designing, securing, operating, monitoring, and documenting an enterprise-inspired home infrastructure using modern networking, cybersecurity, and IT operations best practices.
+
+</p>
+
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Project](https://img.shields.io/badge/Project-Enterprise%20Infrastructure-blue)
+![Platform](https://img.shields.io/badge/Platform-Omada%20SDN-0052CC)
+![Monitoring](https://img.shields.io/badge/SIEM-Wazuh-purple)
+![Documentation](https://img.shields.io/badge/Documentation-18%20Technical%20Guides-orange)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
+</p>
+
+---
+
+# Overview
+
+Enterprise Home Infrastructure is a long-term engineering project that demonstrates the design, implementation, operation, and continuous improvement of an enterprise-inspired network.
+
+Rather than simply building a functional home network, this project applies enterprise architecture principles to create a secure, segmented, monitored, and well-documented environment similar to those found in professional IT organizations.
+
+This repository focuses not only on technical implementation but also on the operational practices that keep enterprise infrastructure reliable over time.
+
+---
+
+# Why This Project?
+
+This project was built to gain practical experience in the responsibilities commonly performed by:
+
+- Network Engineers
+- Infrastructure Engineers
+- Systems Administrators
+- Security Engineers
+- Blue Team Analysts
+
+The objective was to move beyond individual technologies and understand how networking, security, monitoring, documentation, disaster recovery, and operations work together as a complete infrastructure.
+
+---
+
+# Enterprise Features
+
+| Category | Implementation |
+|:--|:--|
+| 🌐 Network Architecture | Enterprise-inspired layered network design |
+| 🔀 Segmentation | Multi-VLAN architecture |
+| 🛡 Security | Layer 3 firewall policies & least privilege |
+| 📶 Wireless | Enterprise Wi-Fi with segmented SSIDs |
+| 👨‍💻 Administration | Dedicated management network |
+| 📊 Monitoring | Omada SDN & Wazuh SIEM |
+| 💾 Recovery | Backup & disaster recovery planning |
+| 📚 Documentation | 18 engineering guides & operational runbooks |
+| 🔄 Operations | Preventive maintenance & change management |
+
+---
+
+# Architecture Preview
+
+> *(Enterprise network diagram coming soon)*
+
+```text
+                    Internet
+                        │
+                   ISP Gateway
+                        │
+                Enterprise Router
+                        │
+                Managed PoE Switch
+         ┌──────────────┼──────────────┐
+         │              │              │
+    Omada SDN      Access Point   Wired Devices
+     Controller
+                        │
+                Enterprise VLAN Fabric
+```
+
+---
+
+# Engineering Principles
+
+Every design decision throughout this project follows the same engineering principles.
+
+- Security by Design
+- Defense in Depth
+- Least Privilege
+- Network Segmentation
+- Operational Simplicity
+- Documentation First
+- Continuous Improvement
+
+These principles guided every stage of planning, deployment, validation, and maintenance.
+
+---
+
+# Documentation
+
+## Architecture
+
+- Executive Overview
+- Project Goals
+- Network Architecture
+- Physical Topology
+- Logical Topology
+- VLAN Architecture
+- Sanitized IP Addressing Plan
+- Wireless Architecture
+
+## Security
+
+- Firewall Policy Overview
+- Security Hardening
+
+## Operations
+
+- Monitoring & Logging
+- Backup & Recovery
+- Disaster Recovery & Business Continuity
+- Maintenance & Operations
+
+## Engineering
+
+- Troubleshooting Highlights
+- Lessons Learned
+- Skills Demonstrated
+- Change History
+
+---
+
+# Skills Demonstrated
+
+| Engineering Discipline | Practical Experience |
+|:--|:--|
+| Network Engineering | VLAN Design, Routing, Switching, DHCP, DNS |
+| Network Security | Firewall Policies, ACL Design, Defense in Depth |
+| Wireless Networking | Enterprise Wi-Fi Design & Client Segmentation |
+| Infrastructure | Omada SDN, Windows, Linux, VMware |
+| Monitoring | Wazuh SIEM, Infrastructure Health Monitoring |
+| Operations | Change Management, Preventive Maintenance |
+| Disaster Recovery | Backup Strategy, Recovery Validation |
+| Technical Documentation | SOPs, Runbooks, Architecture Documentation |
+
+---
+
+# Technologies
+
+### Networking
+
+- TP-Link Omada SDN
+- Enterprise Router
+- Managed PoE Switching
+- Wi-Fi 6
+- VLAN Segmentation
+
+### Security
+
+- Layer 3 Firewall Policies
+- Network Segmentation
+- Defense in Depth
+- Least Privilege
+
+### Monitoring
+
+- Wazuh SIEM
+- Omada Controller
+- Infrastructure Monitoring
+
+### Infrastructure
+
+- Windows 11 Pro
+- Ubuntu Server
+- Kali Linux
+- VMware Workstation
+
+---
+
+# Project Roadmap
+
+## Completed
+
+- Enterprise Architecture
+- Secure VLAN Design
+- Firewall Deployment
+- Wireless Architecture
+- Monitoring Strategy
+- Disaster Recovery Planning
+- Operations Manual
+- Maintenance Framework
+
+## In Progress
+
+- Professional Architecture Diagrams
+- GitHub Portfolio Modernization
+- Interactive Documentation
+
+## Planned
+
+- Infrastructure Automation
+- Internal PKI
+- Network Access Control
+- Synology NAS Integration
+- UPS Deployment
+- Infrastructure as Code
+- Python Administration Toolkit
+
+---
+
+# Repository Structure
+
+```text
+enterprise-home-infrastructure/
+
+├── README.md
+├── docs/
+├── diagrams/
+├── images/
+├── LICENSE
+└── CHANGELOG.md
+```
+
+---
+
+# Portfolio Notice
+
+This repository has been intentionally sanitized for public release.
+
+Sensitive information has been removed or replaced, including:
+
+- IP addresses
+- Hostnames
+- SSIDs
+- MAC addresses
+- Device serial numbers
+- Administrative credentials
+- Physical location details
+
+The goal is to demonstrate engineering practices while protecting operational security.
+
+---
+
+# About
+
+**Kellie Hucker**
+
+Cybersecurity Student
+
+This project represents an ongoing commitment to learning, documenting, and applying enterprise networking and cybersecurity best practices through hands-on engineering.
+
+---
+
+<p align="center">
+
+**Designed with enterprise engineering principles. Built for continuous learning.**
+
+</p>
