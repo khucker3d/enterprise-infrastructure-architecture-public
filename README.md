@@ -83,7 +83,8 @@ The objective was to move beyond individual technologies and understand how netw
 
 ### Future Network Design: Bridge Mode Plan
 During the initial rollout, the ISP gateway will remain in router mode while the ER605 operates behind it in a temporary Double NAT / NAT x2 design. This provides a safer migration path, keeps a fallback connection available, and allows VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures to be validated before bridge mode is enabled.
-For the full decision record and rollout plan, see: ![Bridge Mode-Plan](docs/bridge-mode-decision.md)
+
+For the full decision record and rollout plan, see: [Bridge Mode-Plan](docs/bridge-mode-decision.md)
 
 ---
 
