@@ -1,6 +1,6 @@
 # Firewall Policy Overview
 
-![Enterprise Traffic Flow](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/enterprise_traffic_flow_%26%20access_control.png)
+![Enterprise Traffic Flow](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/enterprise_traffic_flow_and_access_control.png)
 
 ## Overview
 
