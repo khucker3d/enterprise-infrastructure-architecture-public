@@ -4,26 +4,6 @@
 Enterprise Home Network Bridge Mode Decision
 </h3>
 
-<p align="center">
-
-Documenting the decision to temporarily delay bridge mode and operate the home enterprise network using a controlled Double NAT rollout strategy.
-
-</p>
-
-<p align="center">
-
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Project](https://img.shields.io/badge/Project-Enterprise%20Home%20Infrastructure-blue)
-![Network%20Mode](https://img.shields.io/badge/Network%20Mode-Double%20NAT-orange)
-![Router](https://img.shields.io/badge/Router-TP--Link%20ER605-0052CC)
-![Platform](https://img.shields.io/badge/Platform-Omada%20SDN-purple)
-![Documentation](https://img.shields.io/badge/Documentation-Bridge%20Mode%20Decision-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
-
-</p>
-
----
-
 # Overview
 
 This document explains the current decision to delay bridge mode on the ISP gateway while building and validating an enterprise-inspired home network.
@@ -132,15 +112,10 @@ This Double NAT design is temporary, intentional, and documented.
 ---
 
 # Future Network Design
-Bridge Mode Plan
 
-During the initial rollout, the ISP gateway remains in router mode while the enterprise router operates behind it. This approach provides a safer migration path, keeps a known-good fallback connection available, and allows the Omada network to be configured and validated before making the enterprise router the true edge device.
+The long-term goal is to place the ISP gateway into bridge mode after the Omada network has been validated.
 
-This is a temporary design choice, not the final architecture.
-
-The long-term plan is to move the ISP gateway into bridge mode after VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures have been fully tested.
-
-For the full decision record, current topology, future bridged topology, pros and cons, and rollout plan, see: 
+In the future design, the ISP gateway acts only as the internet handoff, and the ER605 becomes the true edge router and firewall.
 
 ---
 
@@ -639,6 +614,3 @@ Bridge later.
 **Designed as a controlled transition from home networking to enterprise-style infrastructure.**
 
 </p>
-
-
-
