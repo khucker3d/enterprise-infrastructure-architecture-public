@@ -115,6 +115,7 @@ These principles guided every stage of planning, deployment, validation, and mai
 ---
 
 # [Documentation](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/tree/main/docs)
+**Documentation Scope:** This public repository contains a high-level, sanitized overview of the project. More detailed internal documentation exists separately, including step-by-step walkthroughs, configuration procedures, validation steps, troubleshooting notes, and operational runbooks. Sensitive environment-specific details have been intentionally excluded for security reasons.*
 
 ## Architecture
 
