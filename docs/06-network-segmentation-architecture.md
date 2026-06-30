@@ -1,5 +1,7 @@
 # Network Segmentation Architecture
 
+![Network Segmentation](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/network_segmentation_architecture.png)
+
 ## Overview
 
 Network segmentation is a foundational principle of enterprise network design. Rather than allowing every device to communicate across a single flat network, modern infrastructures divide systems into logical security domains based on operational function, trust level, and administrative requirements.
