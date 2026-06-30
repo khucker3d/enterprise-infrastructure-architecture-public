@@ -65,8 +65,6 @@ The objective was to move beyond individual technologies and understand how netw
 
 # Architecture Preview
 
-> *(Enterprise network diagram coming soon)*
-
 ```text
                     Internet
                         │
@@ -220,8 +218,6 @@ enterprise-home-infrastructure/
 
 ├── README.md
 ├── docs/
-├── diagrams/
-├── images/
 ├── LICENSE
 └── CHANGELOG.md
 ```
