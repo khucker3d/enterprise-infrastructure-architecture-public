@@ -1,7 +1,7 @@
 <h1 align="center">Enterprise Home Infrastructure</h1>
 
 <h3 align="center">
-Enterprise Network Engineering Case Study
+Enterprise-Inspired Network Architecture Project
 </h3>
 
 <p align="center">
