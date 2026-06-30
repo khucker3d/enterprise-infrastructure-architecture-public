@@ -114,7 +114,7 @@ These principles guided every stage of planning, deployment, validation, and mai
 
 ---
 
-# Documentation
+# [Documentation](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/tree/main/docs)
 
 ## Architecture
 
