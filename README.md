@@ -22,7 +22,8 @@ Designing, securing, operating, monitoring, and documenting an enterprise-inspir
 </p>
 
 ---
-## Architecture Gallery
+
+# Architecture Gallery
 
 | Logical Architecture | Physical Architecture |
 |----------------------|-----------------------|
@@ -60,15 +61,15 @@ The objective was to move beyond individual technologies and understand how netw
 
 | Category | Implementation |
 |:--|:--|
-| 🌐 Network Architecture | Enterprise-inspired layered network design |
-| 🔀 Segmentation | Multi-VLAN architecture |
-| 🛡 Security | Layer 3 firewall policies & least privilege |
-| 📶 Wireless | Enterprise Wi-Fi with segmented SSIDs |
-| 👨‍💻 Administration | Dedicated management network |
-| 📊 Monitoring | Omada SDN & Wazuh SIEM |
-| 💾 Recovery | Backup & disaster recovery planning |
-| 📚 Documentation | 18 engineering guides & operational runbooks |
-| 🔄 Operations | Preventive maintenance & change management |
+| Network Architecture | Enterprise-inspired layered network design |
+| Segmentation | Multi-VLAN architecture |
+| Security | Layer 3 firewall policies & least privilege |
+| Wireless | Enterprise Wi-Fi with segmented SSIDs |
+| Administration | Dedicated management network |
+| Monitoring | Omada SDN & Wazuh SIEM |
+| Recovery | Backup & disaster recovery planning |
+| Documentation | 18 engineering guides & operational runbooks |
+| Operations | Preventive maintenance & change management |
 
 ---
 
