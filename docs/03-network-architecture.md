@@ -1,6 +1,6 @@
 # Network Architecture
 
-![Logical Architecture](images/logical_network_architecture.png)
+![Logical Architecture](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/logical_network_architecture.png)
 
 ## Overview
 
