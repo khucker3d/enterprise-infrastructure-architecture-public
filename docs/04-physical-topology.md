@@ -1,5 +1,7 @@
 # Physical Topology
 
+![Physical Infrastructure Architecture](../images/physical_infrastructure_architecture.png)
+
 ## Overview
 
 The physical topology of Enterprise Home Infrastructure was designed using enterprise infrastructure principles that emphasize modularity, reliability, maintainability, and future scalability.
