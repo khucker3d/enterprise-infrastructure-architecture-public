@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/khucker3d/cyber-branding-images/main/banner.png" width="100%" alt="Enterprise Home Infrastructure">
-</p>
-
 <h1 align="center">Enterprise Home Infrastructure</h1>
 
 <h3 align="center">
