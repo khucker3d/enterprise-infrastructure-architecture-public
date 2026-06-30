@@ -1,5 +1,7 @@
 # Network Architecture
 
+![Logical Architecture](images/logical_network_architecture.png)
+
 ## Overview
 
 The Enterprise Home Infrastructure project demonstrates the design of a modern enterprise-inspired network architecture built around the principles of security, scalability, operational simplicity, and long-term maintainability.
