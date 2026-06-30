@@ -132,10 +132,15 @@ This Double NAT design is temporary, intentional, and documented.
 ---
 
 # Future Network Design
+Bridge Mode Plan
 
-The long-term goal is to place the ISP gateway into bridge mode after the Omada network has been validated.
+During the initial rollout, the ISP gateway remains in router mode while the enterprise router operates behind it. This approach provides a safer migration path, keeps a known-good fallback connection available, and allows the Omada network to be configured and validated before making the enterprise router the true edge device.
 
-In the future design, the ISP gateway acts only as the internet handoff, and the ER605 becomes the true edge router and firewall.
+This is a temporary design choice, not the final architecture.
+
+The long-term plan is to move the ISP gateway into bridge mode after VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures have been fully tested.
+
+For the full decision record, current topology, future bridged topology, pros and cons, and rollout plan, see: 
 
 ---
 
