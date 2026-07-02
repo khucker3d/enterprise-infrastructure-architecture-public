@@ -43,7 +43,7 @@ This repository focuses not only on technical implementation but also on the ope
 
 ---
 
-# Why This Project?
+### Why This Project?
 
 This project was built to gain practical experience in the responsibilities commonly performed by:
 
@@ -73,7 +73,7 @@ The objective was to move beyond individual technologies and understand how netw
 
 ---
 
-# Architecture Preview
+# Architecture
 
 ```text
                     Internet
@@ -90,6 +90,7 @@ The objective was to move beyond individual technologies and understand how netw
                         │
                 Enterprise VLAN Fabric
 ```
+
 
 ### Future Network Design: Bridge Mode Plan
 During the initial rollout, the ISP gateway will remain in router mode while the ER605 operates behind it in a temporary Double NAT / NAT x2 design. This provides a safer migration path, keeps a fallback connection available, and allows VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures to be validated before bridge mode is enabled.
@@ -117,50 +118,24 @@ These principles guided every stage of planning, deployment, validation, and mai
 # [Documentation](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/tree/main/docs)
 **Documentation Scope:** This public repository contains a high-level, sanitized overview of the project. More detailed internal documentation exists separately, including step-by-step walkthroughs, configuration procedures, validation steps, troubleshooting notes, and operational runbooks. Sensitive environment-specific details have been intentionally excluded for security reasons.*
 
-## Architecture
-
-- Executive Overview
-- Project Goals
-- Network Architecture
-- Physical Topology
-- Logical Topology
-- VLAN Architecture
-- Sanitized IP Addressing Plan
-- Wireless Architecture
-
-## Security
+### Security
 
 - Firewall Policy Overview
 - Security Hardening
 
-## Operations
+### Operations
 
 - Monitoring & Logging
 - Backup & Recovery
 - Disaster Recovery & Business Continuity
 - Maintenance & Operations
 
-## Engineering
+### Engineering
 
 - Troubleshooting Highlights
 - Lessons Learned
 - Skills Demonstrated
 - Change History
-
----
-
-# Skills Demonstrated
-
-| Engineering Discipline | Practical Experience |
-|:--|:--|
-| Network Engineering | VLAN Design, Routing, Switching, DHCP, DNS |
-| Network Security | Firewall Policies, ACL Design, Defense in Depth |
-| Wireless Networking | Enterprise Wi-Fi Design & Client Segmentation |
-| Infrastructure | Omada SDN, Windows, Linux, VMware |
-| Monitoring | Wazuh SIEM, Infrastructure Health Monitoring |
-| Operations | Change Management, Preventive Maintenance |
-| Disaster Recovery | Backup Strategy, Recovery Validation |
-| Technical Documentation | SOPs, Runbooks, Architecture Documentation |
 
 ---
 
@@ -240,7 +215,7 @@ enterprise-home-infrastructure/
 
 ---
 
-# Portfolio Notice
+# Notes
 
 This repository has been intentionally sanitized for public release.
 
@@ -258,13 +233,18 @@ The goal is to demonstrate engineering practices while protecting operational se
 
 ---
 
-# About
+# Skills Demonstrated
 
-**Kellie Hucker**
-
-Cybersecurity Student
-
-This project represents an ongoing commitment to learning, documenting, and applying enterprise networking and cybersecurity best practices through hands-on engineering.
+| Engineering Discipline | Practical Experience |
+|:--|:--|
+| Network Engineering | VLAN Design, Routing, Switching, DHCP, DNS |
+| Network Security | Firewall Policies, ACL Design, Defense in Depth |
+| Wireless Networking | Enterprise Wi-Fi Design & Client Segmentation |
+| Infrastructure | Omada SDN, Windows, Linux, VMware |
+| Monitoring | Wazuh SIEM, Infrastructure Health Monitoring |
+| Operations | Change Management, Preventive Maintenance |
+| Disaster Recovery | Backup Strategy, Recovery Validation |
+| Technical Documentation | SOPs, Runbooks, Architecture Documentation |
 
 ---
 
