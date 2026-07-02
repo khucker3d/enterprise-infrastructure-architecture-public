@@ -184,14 +184,9 @@ These principles guided every stage of planning, deployment, validation, and mai
 - Operations Manual
 - Maintenance Framework
 
-## In Progress
+## Planned Ideas
 
-- Professional Architecture Diagrams
-- GitHub Portfolio Modernization
-- Interactive Documentation
-
-## Planned
-
+- Bridging
 - Infrastructure Automation
 - Internal PKI
 - Network Access Control
