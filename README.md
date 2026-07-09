@@ -131,7 +131,8 @@ Every design decision throughout this project follows the same engineering princ
 ---
 
 ## Related Projects: 
-- [Pi Network Utility Server](https://github.com/khucker3d/raspberry-pi-network-utility-server/blob/main/README.md)
+- [Raspberry Pi Network Utility Server](https://github.com/khucker3d/raspberry-pi-network-utility-server/blob/main/README.md)
+- [Home Network Hardware Heat Advisory Alert](https://github.com/khucker3d/home-network-hardware-heat-advisory-alert/edit/main/ReadMe.md)
 
 ---
 
