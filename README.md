@@ -91,6 +91,8 @@ The objective was to move beyond individual technologies and understand how netw
                 Enterprise VLAN Fabric
 ```
 
+## Related Projects: 
+- [Pi Network Utility Server](https://github.com/khucker3d/raspberry-pi-network-utility-server/blob/main/README.md)
 
 ### Future Network Design: 
 **[Bridge Mode-Plan](docs/bridge-mode-decision.md)**
@@ -217,7 +219,7 @@ Every design decision throughout this project follows the same engineering princ
 
 # Repository Structure
 
-```text
+```
 enterprise-home-infrastructure/
 
 ├── README.md
