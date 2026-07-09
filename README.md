@@ -23,7 +23,7 @@ Designing, securing, operating, monitoring, and documenting an enterprise-inspir
 
 ---
 
-# Architecture Gallery
+## Architecture Gallery
 
 | Logical Architecture | Physical Architecture |
 |----------------------|-----------------------|
@@ -33,7 +33,7 @@ Designing, securing, operating, monitoring, and documenting an enterprise-inspir
 |----------------------|--------------|
 | ![](images/network_segmentation_architecture.png) | ![](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/images/enterprise_traffic_flow_and_access_control.png) |
 
-# Overview
+## Overview
 
 Enterprise Home Infrastructure is a long-term engineering project that demonstrates the design, implementation, operation, and continuous improvement of an enterprise-inspired network.
 
@@ -45,19 +45,18 @@ This repository focuses not only on technical implementation but also on the ope
 
 ### Why This Project?
 
-This project was built to gain practical experience in the responsibilities commonly performed by:
+The objective was to move beyond individual technologies and understand how networking, security, monitoring, documentation, disaster recovery, and operations work together as a complete infrastructure.
 
+This project was built to gain practical experience in the responsibilities commonly performed by:
 - Network Engineers
 - Infrastructure Engineers
 - Systems Administrators
 - Security Engineers
 - Blue Team Analysts
 
-The objective was to move beyond individual technologies and understand how networking, security, monitoring, documentation, disaster recovery, and operations work together as a complete infrastructure.
-
 ---
 
-# Enterprise Features
+## Enterprise Features
 
 | Category | Implementation |
 |:--|:--|
@@ -73,7 +72,7 @@ The objective was to move beyond individual technologies and understand how netw
 
 ---
 
-# Architecture
+## Architecture
 
 ```
                     Internet
@@ -91,17 +90,7 @@ The objective was to move beyond individual technologies and understand how netw
                 Enterprise VLAN Fabric
 ```
 
-## Related Projects: 
-- [Pi Network Utility Server](https://github.com/khucker3d/raspberry-pi-network-utility-server/blob/main/README.md)
-
-### Future Network Design: 
-**[Bridge Mode-Plan](docs/bridge-mode-decision.md)**
-
-During the initial rollout, the ISP gateway will remain in router mode while the ER605 operates behind it in a temporary Double NAT / NAT x2 design. This provides a safer migration path, keeps a fallback connection available, and allows VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures to be validated before bridge mode is enabled.
-
----
-
-# Engineering Principles
+## Engineering Principles
 
 Every design decision throughout this project follows the same engineering principles. These principles guided every stage of planning, deployment, validation, and maintenance.
 
@@ -112,10 +101,9 @@ Every design decision throughout this project follows the same engineering princ
 - Operational Simplicity
 - Documentation First
 - Continuous Improvement
-
 ---
 
-# Documentation
+## Documentation
 ***Documentation Scope:** This public repository contains a high-level, sanitized overview of the project. More detailed internal documentation exists separately, including step-by-step walkthroughs, configuration procedures, validation steps, troubleshooting notes, and operational runbooks. Sensitive environment-specific details have been intentionally excluded for security reasons.**
 
 - [1. Executive Overview](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/01-executive-overview.md)
@@ -136,119 +124,18 @@ Every design decision throughout this project follows the same engineering princ
 - [16. Lessons Learned](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/16-lessons-learned.md)
 - [17. Professional Competencies Demonstrated](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/17-professional-competencies-demonstrated.md)
 - [18. Project Evolution Revision History](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/18-project-evolution-revision-history.md)
+- [Bridge Mode-Plan](docs/bridge-mode-decision.md)
 
-
-### Security
-
-- Firewall Policy Overview
-- Security Hardening
-
-### Operations
-
-- Monitoring & Logging
-- Backup & Recovery
-- Disaster Recovery & Business Continuity
-- Maintenance & Operations
-
-### Engineering
-
-- Troubleshooting Highlights
-- Lessons Learned
-- Skills Demonstrated
-- Change History
+*During the initial rollout, the ISP gateway will remain in router mode while the ER605 operates behind it in a temporary Double NAT / NAT x2 design. This provides a safer migration path, keeps a fallback connection available, and allows VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures to be validated before bridge mode is enabled.*
 
 ---
 
-# Technologies
-
-### Networking
-
-- TP-Link Omada SDN
-- Enterprise Router
-- Managed PoE Switching
-- Wi-Fi 6
-- VLAN Segmentation
-
-### Security
-
-- Layer 3 Firewall Policies
-- Network Segmentation
-- Defense in Depth
-- Least Privilege
-
-### Monitoring
-
-- Wazuh SIEM
-- Omada Controller
-- Infrastructure Monitoring
-
-### Infrastructure
-
-- Windows 11 Pro
-- Ubuntu Server
-- Kali Linux
-- VMware Workstation
+## Related Projects: 
+- [Pi Network Utility Server](https://github.com/khucker3d/raspberry-pi-network-utility-server/blob/main/README.md)
 
 ---
 
-# Project Roadmap
-
-## Completed
-
-- Enterprise Architecture
-- Secure VLAN Design
-- Firewall Deployment
-- Wireless Architecture
-- Monitoring Strategy
-- Disaster Recovery Planning
-- Operations Manual
-- Maintenance Framework
-
-## Planned Ideas
-
-- Bridging
-- Infrastructure Automation
-- Internal PKI
-- Network Access Control
-- Synology NAS Integration
-- UPS Deployment
-- Infrastructure as Code
-- Python Administration Toolkit
-
----
-
-# Repository Structure
-
-```
-enterprise-home-infrastructure/
-
-├── README.md
-├── docs/
-├── LICENSE
-└── CHANGELOG.md
-```
-
----
-
-# Notes
-
-This repository has been intentionally sanitized for public release.
-
-Sensitive information has been removed or replaced, including:
-
-- IP addresses
-- Hostnames
-- SSIDs
-- MAC addresses
-- Device serial numbers
-- Administrative credentials
-- Physical location details
-
-The goal is to demonstrate engineering practices while protecting operational security.
-
----
-
-# Skills Demonstrated
+## Skills Demonstrated
 
 | Engineering Discipline | Practical Experience |
 |:--|:--|
