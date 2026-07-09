@@ -75,7 +75,7 @@ The objective was to move beyond individual technologies and understand how netw
 
 # Architecture
 
-```text
+```
                     Internet
                         │
                    ISP Gateway
@@ -92,16 +92,16 @@ The objective was to move beyond individual technologies and understand how netw
 ```
 
 
-### Future Network Design: Bridge Mode Plan
-During the initial rollout, the ISP gateway will remain in router mode while the ER605 operates behind it in a temporary Double NAT / NAT x2 design. This provides a safer migration path, keeps a fallback connection available, and allows VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures to be validated before bridge mode is enabled.
+### Future Network Design: 
+**[Bridge Mode-Plan](docs/bridge-mode-decision.md)**
 
-For the full decision record and rollout plan, see: [Bridge Mode-Plan](docs/bridge-mode-decision.md)
+During the initial rollout, the ISP gateway will remain in router mode while the ER605 operates behind it in a temporary Double NAT / NAT x2 design. This provides a safer migration path, keeps a fallback connection available, and allows VLANs, routing, DHCP, DNS, firewall rules, management access, and recovery procedures to be validated before bridge mode is enabled.
 
 ---
 
 # Engineering Principles
 
-Every design decision throughout this project follows the same engineering principles.
+Every design decision throughout this project follows the same engineering principles. These principles guided every stage of planning, deployment, validation, and maintenance.
 
 - Security by Design
 - Defense in Depth
@@ -111,12 +111,30 @@ Every design decision throughout this project follows the same engineering princ
 - Documentation First
 - Continuous Improvement
 
-These principles guided every stage of planning, deployment, validation, and maintenance.
-
 ---
 
-# [Documentation](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/tree/main/docs)
-**Documentation Scope:** This public repository contains a high-level, sanitized overview of the project. More detailed internal documentation exists separately, including step-by-step walkthroughs, configuration procedures, validation steps, troubleshooting notes, and operational runbooks. Sensitive environment-specific details have been intentionally excluded for security reasons.*
+# Documentation
+***Documentation Scope:** This public repository contains a high-level, sanitized overview of the project. More detailed internal documentation exists separately, including step-by-step walkthroughs, configuration procedures, validation steps, troubleshooting notes, and operational runbooks. Sensitive environment-specific details have been intentionally excluded for security reasons.**
+
+- [1. Executive Overview](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/01-executive-overview.md)
+- [2. Project Goals](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/02-project-goals.md)
+- [3. Network Architecture](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/03-network-architecture.md)
+- [4. Physical Topology](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/04-physical-topology.md)
+- [5. Logical Topology](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/05-logical-topology.md)
+- [6. Network Segmentation Architecture](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/06-network-segmentation-architecture.md)
+- [7. Network Addressing Strategy](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/07-network-addressing-strategy.md)
+- [8. Wireless Architecture](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/08-wireless-architecture.md)
+- [9. Firewall Policy](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/09-firewall-policy-overview.md)
+- [10. Monitoring and Logging](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/10-monitoring-and-logging.md)
+- [11. Backup and Recovery](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/11-backup-and-recovery.md)
+- [12. Disaster Recovery Business Continuity](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/12-disaster-recovery-business-continuity.md)
+- [13. Maintenance and Operations](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/13-maintenance-and-operations.md)
+- [14. Security Hardening](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/14-security-hardening.md)
+- [15. Troubleshooting Highlights](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/15-troubleshooting-highlights.md)
+- [16. Lessons Learned](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/16-lessons-learned.md)
+- [17. Professional Competencies Demonstrated](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/17-professional-competencies-demonstrated.md)
+- [18. Project Evolution Revision History](https://github.com/khucker3d/enterprise-infrastructure-architecture-public/blob/main/docs/18-project-evolution-revision-history.md)
+
 
 ### Security
 
